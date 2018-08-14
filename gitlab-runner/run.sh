@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ $? -ne 3 ]; then
+if [ $# -ne 3 ]; then
     echo "Usage: <docker-image, eg, alpine:latest> <url, eg, https://gitlab.naas.aws.charterlab.com/> <--registration-token, eg ...Zg3U5z...>"
     exit 1
 fi
